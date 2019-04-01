@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity">
+    <ImageView
+        android:id="@+id/textview_detail_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/textview_detail_creator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creator name"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        />
+    <TextView
+        android:id="@+id/textview_detail_likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Likes"
+        android:textSize="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        />
+    <TextView
+        android:id="@+id/textview_detail_downloads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Downloads"
+        android:textSize="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        />
+</android.support.v7.widget.LinearLayoutCompat>
